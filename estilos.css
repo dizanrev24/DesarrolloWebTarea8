@@ -1,0 +1,121 @@
+.barra {
+    background: #56f048; /* Azul principal */
+    clear: both;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 356px;
+    min-width: 20px;
+}
+
+body {
+    background: #02ff6b;
+    font-family: Arial, sans-serif; /* Cambiamos la fuente a Arial */
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9; /* Azul para los enlaces */
+}
+
+a:hover {
+    color: #1c638d; /* Azul más oscuro al pasar el mouse sobre los enlaces */
+}
+
+.wrap {
+    padding: 25px;
+    margin: 0 auto;
+    width: 385px;
+    background: #ecf0f1; /* Azul claro para el fondo del contenedor */
+    border-radius: 4px;
+    margin-top: 70px;
+    border: 1px solid #bdc3c7; /* Azul más claro para el borde */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 21px;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #2980b9; /* Azul para el encabezado */
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+form .titulo {
+    margin-right: 20px;
+}
+
+form label {
+    display: block;
+    color: #3498db; /* Azul principal para las etiquetas */
+}
+
+form input[type='text'],
+select {
+    border: 1px solid #bdc3c7;
+    padding: 8px; /* Aumentamos el espacio de relleno */
+    resize: none;
+    color: #333; /* Color de texto más oscuro */
+}
+
+form input[type="submit"] {
+    padding: 10px 16px; /* Aumentamos el espacio de relleno */
+    background: #3498db;
+    border: 0;
+    display: block;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer; /* Cambiamos el cursor al pasar el mouse */
+}
+
+form input[type="submit"]:hover {
+    background: #1c638d; /* Azul más oscuro al pasar el mouse */
+}
+
+ul.votacion {
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.votacion li a {
+    padding: 8px;
+    background: #ecf0f1; /* Azul claro para el fondo de las opciones */
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #3498db; /* Azul principal para el texto de las opciones */
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+
+.votacion li a:hover {
+    background: #d5e6f0; /* Azul más claro al pasar el mouse */
+    color: #2980b9; /* Azul para el texto al pasar el mouse */
+}
+
+.votacion li span {
+    margin-left: 10px;
+}
+
+.votacion .fl {
+    margin-bottom: 5px;
+}
+
+.volver {
+    display: block;
+    padding-top: 15px;
+    clear: both;
+    color: #3498db; /* Azul principal para el enlace de volver */
+}
+
+.volver:hover {
+    color: #1c638d; /* Azul más oscuro al pasar el mouse */
+}
